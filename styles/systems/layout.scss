@@ -1,0 +1,70 @@
+@mixin layout-L {
+    max-width: 1600px;
+    width: 75%;
+    min-width: 1224px;
+    margin: var(--MY ,0) auto;
+    @media screen and (max-width: 1024px) {
+      width: 75%;
+      min-width: 0px;
+      max-width: 124px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      min-width: 0px;
+      max-width: 768px;
+      padding: 0 24px;
+    }
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      min-width: 0px;
+      max-width: 767px;
+      padding: 0 12px;
+    }
+  }
+  
+  @mixin layout-M {
+    max-width: 1200px;
+    width: 70%;
+    margin: var(--MY ,0) auto;
+    @media screen and (max-width: 1024px) {
+      width: 70%;
+      min-width: 0px;
+      max-width: 960px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      min-width: 0px;
+      max-width: 768px;
+      padding: 0 48px;
+    }
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      min-width: 0px;
+      max-width: 767px;
+      padding: 0 24px;
+    }
+  }
+  
+  @mixin layout-S {
+    max-width: 1000px;
+    width: 65%;
+    margin: var(--MY ,0) auto;
+    @media screen and (max-width: 1024px) {
+      width: 65%;
+      min-width: 0px;
+      max-width: 860px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      min-width: 0px;
+      max-width: 768px;
+      padding: 0 56px;
+    }
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      min-width: 0px;
+      max-width: 767px;
+      padding: 0 36px;
+    }
+  }
+  

@@ -1,0 +1,28 @@
+@mixin fuild-font-size($minpx,$max,$min) {
+    font-size: calc($minpx + ($max - $min) * (100vw - 360px) / (1920 - 360)) !important;
+    font-weight: 300;
+}
+h1{
+    @include fuild-font-size(24px,36,24);
+}
+h2{
+    @include fuild-font-size(20px,32,20);
+}
+h3{
+    @include fuild-font-size(16px,24,16);
+}
+h4{
+    @include fuild-font-size(14px,20,14);
+}
+h5{
+    @include fuild-font-size(12px,16,12);
+}
+h6{
+    @include fuild-font-size(10px,14,10);
+}
+p ,span,a,li,td,th,button,input,textarea,select {
+    @include fuild-font-size(12px,16,12);
+}
+a{
+    cursor: pointer;
+}

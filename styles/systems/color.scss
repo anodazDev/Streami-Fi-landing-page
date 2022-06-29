@@ -1,0 +1,55 @@
+// Color-Primary
+$color-primary: #6c2bbb;
+$color-primary-0: lighten($color-primary, 50%);
+$color-primary-1: lighten($color-primary, 40%);
+$color-primary-2: lighten($color-primary, 30%);
+$color-primary-3: lighten($color-primary, 20%);
+$color-primary-4: lighten($color-primary, 10%);
+$color-primary-5: $color-primary;
+$color-primary-6: darken($color-primary, 10%);
+$color-primary-7: darken($color-primary, 20%);
+$color-primary-8: darken($color-primary, 30%);
+$color-primary-9: darken($color-primary, 40%);
+$color-primary-10: darken($color-primary, 50%);
+
+//Color-Secondary
+$color-secondary: #e21a84;
+$color-secondary-0: lighten($color-secondary, 50%);
+$color-secondary-1: lighten($color-secondary, 40%);
+$color-secondary-2: lighten($color-secondary, 30%);
+$color-secondary-3: lighten($color-secondary, 20%);
+$color-secondary-4: lighten($color-secondary, 10%);
+$color-secondary-5: $color-secondary;
+$color-secondary-6: darken($color-secondary, 10%);
+$color-secondary-7: darken($color-secondary, 20%);
+$color-secondary-8: darken($color-secondary, 30%);
+$color-secondary-9: darken($color-secondary, 40%);
+$color-secondary-10: darken($color-secondary, 50%);
+
+//Color-Tertiary
+$color-tertiary: #ff9457;
+$color-tertiary-0: lighten($color-tertiary, 50%);
+$color-tertiary-1: lighten($color-tertiary, 40%);
+$color-tertiary-2: lighten($color-tertiary, 30%);
+$color-tertiary-3: lighten($color-tertiary, 20%);
+$color-tertiary-4: lighten($color-tertiary, 10%);
+$color-tertiary-5: $color-tertiary;
+$color-tertiary-6: darken($color-tertiary, 10%);
+$color-tertiary-7: darken($color-tertiary, 20%);
+$color-tertiary-8: darken($color-tertiary, 30%);
+$color-tertiary-9: darken($color-tertiary, 40%);
+$color-tertiary-10: darken($color-tertiary, 50%);
+
+//Color-Font
+$color-font: #787887;
+$color-font-0: lighten($color-font, 50%);
+$color-font-1: lighten($color-font, 40%);
+$color-font-2: lighten($color-font, 30%);
+$color-font-3: lighten($color-font, 20%);
+$color-font-4: lighten($color-font, 10%);
+$color-font-5: $color-font;
+$color-font-6: darken($color-font, 10%);
+$color-font-7: darken($color-font, 20%);
+$color-font-8: darken($color-font, 30%);
+$color-font-9: darken($color-font, 40%);
+$color-font-10: darken($color-font, 50%);

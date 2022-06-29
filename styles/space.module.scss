@@ -1,0 +1,19 @@
+@import './systems/layout.scss';
+.layout_L{
+    @include layout-L;
+    --MY : 24px;
+    height: 400px;
+    background-color: #FFD59D;
+}
+.layout_M{
+    @include layout-M;
+    --MY : 24px;
+    height: 400px;
+    background-color: #FFD59D;
+}
+.layout_S{
+    @include layout-S;
+    --MY : 24px;
+    height: 400px;
+    background-color: #FFD59D;
+}
