@@ -1,0 +1,89 @@
+@import "./color.module.scss";
+@import './systems/layout.scss';
+
+.layout_L{
+    @include layout-L;
+    --MY : 40px;
+}
+.layout_M{
+    @include layout-M;
+    --MY : 40px;
+}
+.layout_S{
+    @include layout-S;
+    --MY : 40px;
+}
+
+.mb-10rem{
+    margin-bottom: 10rem;
+}
+
+.bg-gradient-dark-0{
+    background: $color-primary-5;
+    background: linear-gradient(0deg, $color-primary-10 0%, $color-primary-5 100%);
+}
+
+.bottom-triangle-gradient{
+    position: relative;
+    overflow: hidden;
+}
+
+.bottom-triangle-gradient > *{
+    z-index: 1;
+}
+
+.bottom-triangle-gradient::after{
+    content: " ";
+    background: linear-gradient(90deg, $color-primary-10 0%, $color-secondary-5 100%);
+    width: 120%;
+    height: 500px;
+    position: absolute;
+    transform: rotate(-10deg);
+    bottom: -340px;
+    left: 0;
+    opacity: 50%;
+}
+
+.image-x-auto > span{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.text-center{
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+.text-right{
+    text-align: right;
+    text-align: -webkit-right;
+}
+
+.text-white{
+    color: white;
+}
+
+.btn-pill-10{
+    border-radius: 10px;
+}
+
+.btn-border-white{
+    border:3px solid white;
+    transform: scale(1);
+    transition: all 0.2s ease-in;
+}
+
+.btn-border-white:hover{
+    background-color: white;
+    color: $color-primary-5;
+    transform: scale(1.1);
+}
+
+.border-white-3{
+    border:3px solid white
+}
+
+.border-white-5{
+    border:5px solid white
+}
