@@ -1,0 +1,86 @@
+@import '../../systems/layout.scss';
+
+.layout_L{
+    @include layout-L;
+    --MY : 40px;
+}
+.layout_M{
+    @include layout-M;
+    --MY : 40px;
+}
+.layout_S{
+    @include layout-S;
+    --MY : 40px;
+}
+
+.mb_10rem{
+    margin-bottom: 10rem;
+}
+
+.bg_gradient_dark{
+    background: #6c2bbb;
+    background: linear-gradient(0deg, #0B0B0B 0%, #6c2bbb 100%);
+}
+
+.bottom_triangle_gradient{
+    position: relative;
+    overflow: hidden;
+}
+
+.bottom_triangle_gradient > *{
+    z-index: 1;
+}
+
+.bottom_triangle_gradient::after{
+    content: " ";
+    background: linear-gradient(90deg, #0B0B0B 0%, #FA2094 100%);
+    width: 120%;
+    height: 500px;
+    position: absolute;
+    transform: rotate(-10deg);
+    bottom: -340px;
+    left: 0;
+    opacity: 50%;
+}
+
+.image_x_auto > span{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.text_center{
+    text-align: center;
+}
+
+.text_right{
+    text-align: right;
+}
+
+.text_white{
+    color: white;
+}
+
+.btn_pill_10{
+    border-radius: 10px;
+}
+
+.btn_border_white{
+    border:3px solid white;
+    transform: scale(1);
+    transition: all 0.2s ease-in;
+}
+
+.btn_border_white:hover{
+    background-color: white;
+    color: #6c2bbb;
+    transform: scale(1.1);
+}
+
+.border_white_3{
+    border:3px solid white
+}
+
+.border_white_5{
+    border:5px solid white
+}
