@@ -6,7 +6,7 @@ import TokenomicRoadmap from '../components/StreamiFi/TokenomicRoadmap'
 export default function index() {
   return (
     <>
-    {/* <PlatfromGameplay/> */}
+    <PlatfromGameplay/>
     <TokenomicRoadmap/>
     </>
   )

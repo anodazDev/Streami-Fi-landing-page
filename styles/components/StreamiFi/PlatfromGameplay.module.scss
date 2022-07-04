@@ -14,7 +14,7 @@
 
 .bottom_triangle_gradient::after{
     content: " ";
-    background: linear-gradient(90deg, #0B0B0B 0%, #FA2094 100%);
+    background: linear-gradient(60deg, #0B0B0B 40%, #FA2094 100%);
     width: 120%;
     height: 500px;
     position: absolute;
