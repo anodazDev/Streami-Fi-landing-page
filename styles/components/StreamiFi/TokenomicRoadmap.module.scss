@@ -15,11 +15,11 @@
 .bottom_triangle_gradient::after{
     content: " ";
     background: linear-gradient(30deg, #100468 60%, #B32FBC 80%);
-    width: 140%;
-    height: 80%;
+    width: 300%;
+    height: 100%;
     position: absolute;
     transform: rotate(-26deg);
-    bottom: -7%;
-    left: 0;
+    bottom: -5.7%;
+    left: -50%;
     opacity: 50%;
 }
