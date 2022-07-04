@@ -12,21 +12,26 @@ export default function index() {
     <>
     <div className={`${Styles.bg_gradient_dark} ${Styles.bottom_triangle_gradient} ${'flex'}`}>
       <div className={`${'mx-auto w-full'}`}>
+        {/* Platfrom */}
         <div className={`${Styles.layout_M} ${Styles.mb_8rem}`}>
-            <div className={`${Styles.image_x_auto} ${'container flex mx-auto'}`} data-aos="fade-in">
-                <Image
-                    src={PlatfromBoxImage}
-                    alt="Picture of the author"
-                    width="700"
-                    height="350"
-                    className="mx-auto"
-                    />
-            </div>
-            <div className={`${Styles.text_center} ${'container mx-auto'}`} data-aos="zoom-out" data-aos-delay="400">
-                <button className={`${Styles.btn_pill_10} ${Styles.btn_border_white} ${Styles.text_white} ${'btn py-2 px-4'}`}>PLATFROM</button>
-            </div>
+          {/* Platfrom Main Image */}
+          <div className={`${Styles.image_x_auto} ${'container flex mx-auto'}`} data-aos="fade-in">
+              <Image
+                  src={PlatfromBoxImage}
+                  alt="Picture of the author"
+                  width="700"
+                  height="350"
+                  className="mx-auto"
+                  />
+          </div>
+          {/* Platfrom btn */}
+          <div className={`${Styles.text_center} ${'container mx-auto'}`} data-aos="zoom-out" data-aos-delay="400">
+              <button className={`${Styles.btn_pill_10} ${Styles.btn_border_white} ${Styles.text_white} ${'btn py-2 px-4'}`}>PLATFROM</button>
+          </div>
         </div>
+        {/* Gameplay */}
         <div className={`${'relative'}`}>
+          {/* Gameplay Main Image*/}
           <div className={`${Styles.layout_M} ${'relative'}`}>
               <div className={`${Styles.image_x_auto} ${'container flex mx-auto'}`}>
                   <Image
@@ -38,6 +43,7 @@ export default function index() {
                       />
               </div>
           </div>
+          {/* Gameplay Compenent Box*/}
           <div className={`${Styles.gameplay_animation_box}`}>
               {/* top left */}
               <div className={`${'absolute'}`} style={{left: -60}} data-aos="fade-up" data-aos-delay="200">
@@ -111,12 +117,15 @@ export default function index() {
               </div>
           </div>
         </div>
+        {/* Gameplay Content*/}
         <div className={`${'relative'}`}>
           <div className={`${Styles.layout_M} ${Styles.mb_10rem}`}>
               <div className={`${Styles.gamemplay_content_box} ${'container flex mx-auto grid grid-cols-10 gap-2 relative'}`}>
+                {/* Gameplay Title*/}
                 <div className={`${'lg:col-span-4 flex col-span-10'}`} data-aos="fade-left">
                   <label className={`${Styles.text_white} ${Styles.font_header} ${'m-auto'}`}><b>Gameplay</b></label>
                 </div>
+                {/* Gameplay Description*/}
                 <div className={`${Styles.border_white_3} ${Styles.border_radius_20} ${'lg:col-span-6 grid grid-cols-10 relative col-span-10'}`}  data-aos="fade-right">
                   <div className={`${Styles.gameplay_description_border_strip} ${'col-span-1'}`}></div>
                   <div className={`${'col-span-9 p-6 flex '}`}>
