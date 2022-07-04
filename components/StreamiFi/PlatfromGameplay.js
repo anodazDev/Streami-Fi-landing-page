@@ -114,12 +114,12 @@ export default function index() {
         <div className={`${'relative'}`}>
           <div className={`${Styles.layout_M} ${Styles.mb_10rem}`}>
               <div className={`${Styles.gamemplay_content_box} ${'container flex mx-auto grid grid-cols-10 gap-2 relative'}`}>
-                <div className={`${'col-span-4 flex'}`} data-aos="fade-left">
+                <div className={`${'lg:col-span-4 flex col-span-10'}`} data-aos="fade-left">
                   <label className={`${Styles.text_white} ${Styles.font_header} ${'m-auto'}`}><b>Gameplay</b></label>
                 </div>
-                <div className={`${Styles.border_white_3} ${Styles.border_radius_20} ${'col-span-6 grid grid-cols-10 relative'}`}  data-aos="fade-right">
+                <div className={`${Styles.border_white_3} ${Styles.border_radius_20} ${'lg:col-span-6 grid grid-cols-10 relative col-span-10'}`}  data-aos="fade-right">
                   <div className={`${Styles.gameplay_description_border_strip} ${'col-span-1'}`}></div>
-                  <div className={`${'col-span-9 p-6 flex'}`}>
+                  <div className={`${'col-span-9 p-6 flex '}`}>
                     <label className={`${Styles.text_white} ${'m-auto'}`}>
                       <span className={`${Styles.text_danger}`}>Streami-Fi</span> is a music listening platform that lets you earn 
                       by listening to music from your favorite artists. or new artists 
