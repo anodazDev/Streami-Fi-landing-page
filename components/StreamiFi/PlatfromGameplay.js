@@ -6,7 +6,7 @@ import GameplayArrowImage from '../../public/media/img/GameplayArrow.svg'
 import GameplayGoodImage from '../../public/media/img/GameplayGood.svg'
 import GameplayPerfectImage from '../../public/media/img/GameplayPerfect.svg'
 import PageStyles from '../../styles/components/StreamiFi/PlatfromGameplay.module.scss'
-import Styles from '../../styles/components/StreamiFi/Shered.module.scss'
+import Styles from '../../styles/components/StreamiFi/Shared.module.scss'
 
 export default function index() {
   return (
