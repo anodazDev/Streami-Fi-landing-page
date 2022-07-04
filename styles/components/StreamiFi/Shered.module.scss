@@ -1,0 +1,101 @@
+@import '../../systems/layout.scss';
+
+.layout_L{
+    @include layout-L;
+    --MY : 40px;
+}
+.layout_M{
+    @include layout-M;
+    --MY : 40px;
+}
+.layout_S{
+    @include layout-S;
+    --MY : 40px;
+}
+
+.font_header{
+    font-size: 45px;
+    line-height: 65px;
+}
+
+.mb_10rem{
+    margin-bottom: 10rem;
+}
+
+.mb_8rem{
+    margin-bottom: 8rem;
+}
+
+.mb_5rem{
+    margin-bottom: 5rem;
+}
+
+.image_x_auto > span{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.text_center{
+    text-align: center;
+}
+
+.text_right{
+    text-align: right;
+}
+
+.text_white{
+    color: white;
+}
+
+.text_danger{
+    color: #FF764A;
+}
+
+.btn_pill_10{
+    border-radius: 10px;
+}
+
+.btn_border_white{
+    border:3px solid white;
+    transform: scale(1);
+    transition: all 0.2s ease-in;
+}
+
+.btn_border_white:hover{
+    background-color: white;
+    color: #6c2bbb;
+    transform: scale(1.1);
+}
+
+.border_white_1{
+    border:1px solid white
+}
+
+.border_white_3{
+    border:3px solid white
+}
+
+.border_white_5{
+    border:5px solid white
+}
+
+.border_radius_10{
+    border-radius: 10px;
+}
+
+.border_radius_20{
+    border-radius: 20px;
+}
+
+.rotate_90{
+    transform: rotate(90deg);
+}
+
+.rotate_180{
+    transform: rotate(180deg);
+}
+
+.rotate_270{
+    transform: rotate(270deg);
+}

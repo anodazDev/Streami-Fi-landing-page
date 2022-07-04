@@ -5,12 +5,13 @@ import GameplayBoxImage from '../../public/media/img/GameplayBox.svg'
 import GameplayArrowImage from '../../public/media/img/GameplayArrow.svg'
 import GameplayGoodImage from '../../public/media/img/GameplayGood.svg'
 import GameplayPerfectImage from '../../public/media/img/GameplayPerfect.svg'
-import Styles from '../../styles/components/StreamiFi/PlatfromGameplay.module.scss'
+import PageStyles from '../../styles/components/StreamiFi/PlatfromGameplay.module.scss'
+import Styles from '../../styles/components/StreamiFi/Shered.module.scss'
 
 export default function index() {
   return (
     <>
-    <div className={`${Styles.bg_gradient_dark} ${Styles.bottom_triangle_gradient} ${'flex'}`}>
+    <div className={`${PageStyles.bg_gradient_dark} ${PageStyles.bottom_triangle_gradient} ${'flex'}`}>
       <div className={`${'mx-auto w-full'}`}>
         {/* Platfrom */}
         <div className={`${Styles.layout_M} ${Styles.mb_8rem}`}>
@@ -44,7 +45,7 @@ export default function index() {
               </div>
           </div>
           {/* Gameplay Compenent Box*/}
-          <div className={`${Styles.gameplay_animation_box}`}>
+          <div className={`${PageStyles.gameplay_animation_box}`}>
               {/* top left */}
               <div className={`${'absolute'}`} style={{left: -60}} data-aos="fade-up" data-aos-delay="200">
                 <Image
@@ -120,14 +121,14 @@ export default function index() {
         {/* Gameplay Content*/}
         <div className={`${'relative'}`}>
           <div className={`${Styles.layout_M} ${Styles.mb_10rem}`}>
-              <div className={`${Styles.gamemplay_content_box} ${'container flex mx-auto grid grid-cols-10 gap-2 relative'}`}>
+              <div className={`${PageStyles.gamemplay_content_box} ${'container flex mx-auto grid grid-cols-10 gap-2 relative'}`}>
                 {/* Gameplay Title*/}
                 <div className={`${'lg:col-span-4 flex col-span-10'}`} data-aos="fade-left">
                   <label className={`${Styles.text_white} ${Styles.font_header} ${'m-auto'}`}><b>Gameplay</b></label>
                 </div>
                 {/* Gameplay Description*/}
                 <div className={`${Styles.border_white_3} ${Styles.border_radius_20} ${'lg:col-span-6 grid grid-cols-10 relative col-span-10'}`}  data-aos="fade-right">
-                  <div className={`${Styles.gameplay_description_border_strip} ${'col-span-1'}`}></div>
+                  <div className={`${PageStyles.gameplay_description_border_strip} ${'col-span-1'}`}></div>
                   <div className={`${'col-span-9 p-6 flex '}`}>
                     <label className={`${Styles.text_white} ${'m-auto'}`}>
                       <span className={`${Styles.text_danger}`}>Streami-Fi</span> is a music listening platform that lets you earn 
