@@ -1,27 +1,6 @@
 .bg_gradient_dark{
     background: #6c2bbb;
-    background: linear-gradient(0deg, #0B0B0B 0%, #6c2bbb 100%);
-}
-
-.bottom_triangle_gradient{
-    position: relative;
-    overflow: hidden;
-}
-
-.bottom_triangle_gradient > *{
-    z-index: 1;
-}
-
-.bottom_triangle_gradient::after{
-    content: " ";
-    background: linear-gradient(90deg, #0B0B0B 0%, #FA2094 100%);
-    width: 120%;
-    height: 500px;
-    position: absolute;
-    transform: rotate(-10deg);
-    bottom: -340px;
-    left: 0;
-    opacity: 50%;
+    background: linear-gradient(0deg, #311561 0%, #330034 100%);
 }
 
 .gameplay_description_border_strip{
