@@ -13,6 +13,11 @@
     --MY : 40px;
 }
 
+.font_header{
+    font-size: 45px;
+    line-height: 65px;
+}
+
 .mb_10rem{
     margin-bottom: 10rem;
 }
@@ -69,6 +74,10 @@
     color: white;
 }
 
+.text_danger{
+    color: #FF764A;
+}
+
 .btn_pill_10{
     border-radius: 10px;
 }
@@ -85,6 +94,10 @@
     transform: scale(1.1);
 }
 
+.border_white_1{
+    border:1px solid white
+}
+
 .border_white_3{
     border:3px solid white
 }
@@ -93,7 +106,26 @@
     border:5px solid white
 }
 
-.gameplay_animattion_box{
+.border_radius_10{
+    border-radius: 10px;
+}
+
+.border_radius_20{
+    border-radius: 20px;
+}
+
+.gameplay_description_border_strip{
+    border-right: 3px white;
+    border-style: dashed;
+}
+
+.gamemplay_content_box{
+    min-height: 180px;
+    width: 90%;
+    max-width: 900px;
+}
+
+.gameplay_animation_box{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -102,7 +134,7 @@
 }
 
 @media (max-width: 1200px) {
-    .gameplay_animattion_box{
+    .gameplay_animation_box{
         margin-left: calc((50vw - 600px));
     }
 }
@@ -117,4 +149,16 @@
 
 .rotate_270{
     transform: rotate(270deg);
+}
+
+.fadingEffect {
+    position:absolute;
+    top:0; bottom:0; right:0;
+    width:100%;
+    animation: showHide 2s ease-in alternate infinite;
+}
+
+@keyframes showHide {
+    0% {width:0%}
+    100% {width:100%;}
 }
