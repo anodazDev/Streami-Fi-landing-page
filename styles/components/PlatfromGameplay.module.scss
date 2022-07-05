@@ -1,70 +1,74 @@
-@import '../systems/layout.scss';
+@import "../systems/layout.scss";
 
-.layout_L{
-    @include layout-L;
-    --MY : 40px;
+.layout_L {
+  @include layout-L;
+  --MY: 40px;
 }
-.layout_M{
-    @include layout-M;
-    --MY : 40px;
+.layout_M {
+  @include layout-M;
+  --MY: 40px;
 }
-.layout_S{
-    @include layout-S;
-    --MY : 40px;
-}
-
-.font_header{
-    font-size: 45px;
-    line-height: 65px;
-}
-.bottom_triangle_gradient{
-    position: relative;
-    overflow: hidden;
+.layout_S {
+  @include layout-S;
+  --MY: 40px;
 }
 
-.bottom_triangle_gradient > *{
-    z-index: 1;
+.font_header {
+  font-size: 45px;
+  line-height: 65px;
+}
+.bottom_triangle_gradient {
+  position: relative;
+  overflow: hidden;
 }
 
-.bottom_triangle_gradient::after{
-    content: " ";
-    background: linear-gradient(to right, #ff179320 20%, #2F0B4E 100%);
-    width: 120%;
-    height: 360px;
-    position: absolute;
-    // transform: rotate(-10deg);
-    bottom: 0;
-    left: 0;
-    opacity: 50%;
-    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+.bottom_triangle_gradient > * {
+  z-index: 1;
 }
 
-.gameplay_description_border_strip{
-    border-right: 3px white;
-    border-style: dashed;
+.bottom_triangle_gradient::after {
+  content: " ";
+  background: linear-gradient(25deg, #ff179400 0%, #ff17937f 120%, #2f0b4e 200%);
+  width: 120%;
+  height: 360px;
+  position: absolute;
+  // transform: rotate(-10deg);
+  bottom: 0;
+  left: 0;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 }
 
-
-.rotate_90{
-    transform: rotate(90deg);
+.gameplay_description_border_strip {
+  border-right: 3px white;
+  border-style: dashed;
 }
 
-.rotate_180{
-    transform: rotate(180deg);
+.rotate_90 {
+  transform: rotate(90deg);
 }
 
-.rotate_270{
-    transform: rotate(270deg);
+.rotate_180 {
+  transform: rotate(180deg);
+}
+
+.rotate_270 {
+  transform: rotate(270deg);
 }
 
 .fadingEffect {
-    position:absolute;
-    top:0; bottom:0; right:0;
-    width:100%;
-    animation: showHide 2s ease-in alternate infinite;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  animation: showHide 2s ease-in alternate infinite;
 }
 
 @keyframes showHide {
-    0% {width:0%}
-    100% {width:100%;}
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }

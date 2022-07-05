@@ -11,7 +11,7 @@ export default function index() {
   return (
     <>
       <div className={`${Styles.bottom_triangle_gradient} ${'flex bg-gradient-to-b from-primary-600 to-[#0B0B0B]'}`}>
-        <div className={`${'mx-auto w-full'}`}>
+        <div className={`${'mx-auto w-full relative'}`}>
           {/* Platfrom */}
           <div className={`${Styles.layout_L}  ${'!mb-32 flex flex-col'}`}>
             {/* Platfrom Main Image */}
