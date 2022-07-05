@@ -89,26 +89,22 @@ export default function index() {
                       className={`${'mx-auto'}`}
                     />
                   </div>
-
                 </div>
-
               </div>
-
             </div>
             {/* Gameplay Compenent Box*/}
             <div className={`${'absolute w-full h-full top-0 -z-10'}`}>
               {/* top left */}
-              <div className={`${'absolute '}`} style={{ left: -60 }} data-aos="fade-up" data-aos-delay="200">
+              <div className={`${'absolute left-[-60px]'}`} data-aos="fade-up" data-aos-delay="200">
                 <Image
                   src={GameplayArrowImage}
                   alt="Picture of the author"
                   width="150"
                   height="150"
-                  className={`${'mx-auto'}`}
                 />
               </div>
               {/* mid right */}
-              <div className={`${'absolute'}`} style={{ right: -40, top: "50%" }} data-aos="fade-down" data-aos-delay="500">
+              <div className={`${'absolute right-[-40px] top-[50%]'}`} data-aos="fade-down" data-aos-delay="500">
                 <Image
                   src={GameplayArrowImage}
                   alt="Picture of the author"
@@ -121,7 +117,7 @@ export default function index() {
           </div>
           {/* Gameplay Content*/}
           <div className={`${'relative'}`}>
-            <div className={`${Styles.layout_L} ${' !mb-40'}`}>
+            <div className={`${Styles.layout_L} ${'!mb-40'}`}>
               <div className={`
               ${' flex min-h-[200px] w-full relative '}
               ${'flex-col lg:flex-row'}

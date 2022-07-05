@@ -13,9 +13,34 @@
     --MY : 40px;
 }
 
+.image_x_auto > span{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 .font_header{
     font-size: 45px;
     line-height: 65px;
+}
+
+.font_header *{
+    font-size: 45px !important;
+    line-height: 65px;
+}
+
+.font_sub_header{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.font_sub_header *{
+    font-size: 30px !important;
+    line-height: 50px;
+}
+
+.bg_gradient_dark{
+    background: #6c2bbb;
+    background: linear-gradient(0deg, #311561 0%, #330034 100%);
 }
 
 .bottom_triangle_gradient{
@@ -29,20 +54,14 @@
 
 .bottom_triangle_gradient::after{
     content: " ";
-    background: linear-gradient(to right, #ff179320 20%, #2F0B4E 100%);
-    width: 120%;
-    height: 360px;
+    background: linear-gradient(30deg, #100468 60%, #B32FBC 80%);
+    width: 300%;
+    height: 100%;
     position: absolute;
-    // transform: rotate(-10deg);
-    bottom: 0;
-    left: 0;
+    transform: rotate(-26deg);
+    bottom: -5.7%;
+    left: -50%;
     opacity: 50%;
-    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-}
-
-.gameplay_description_border_strip{
-    border-right: 3px white;
-    border-style: dashed;
 }
 
 .rotate_90{
