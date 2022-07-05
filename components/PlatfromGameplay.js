@@ -127,12 +127,12 @@ export default function index() {
               ${'flex-col lg:flex-row'}
               `}>
                 {/* Gameplay Title*/}
-                <div className={`${' w-5/12 flex justify-center items-center'}`} data-aos="fade-left">
+                <div className={`${'w-full flex justify-center items-center'} ${'lg:w-5/12 mb-8'}`} data-aos="fade-left">
                   <h1 className={`${'m-auto text-white font-bold !text-6xl'}`}>Gameplay</h1>
                 </div>
                 {/* Gameplay Description*/}
-                <div className={` ${' w-7/12 flex   items-center border-white border-4 rounded-3xl '}`} data-aos="fade-right">
-                  <div className={` ${' w-12 h-full border-r-4 border-white border-dashed'}`}></div>
+                <div className={` ${'w-10/12 flex items-center border-white border-4 rounded-3xl mx-auto'} ${'lg:w-7/12'}`} data-aos="fade-right">
+                  <div className={` ${'w-12 h-full border-r-4 border-white border-dashed'}`}></div>
                   <div className={`${'w-9/12 p-6 flex mx-auto '}`}>
                     <p className=' text-white'>
                       <span className={` text-red-500`}>Streami-Fi </span>
