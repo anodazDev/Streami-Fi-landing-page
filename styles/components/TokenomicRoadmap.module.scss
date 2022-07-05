@@ -1,0 +1,77 @@
+@import '../systems/layout.scss';
+
+.layout_L{
+    @include layout-L;
+    --MY : 40px;
+}
+.layout_M{
+    @include layout-M;
+    --MY : 40px;
+}
+.layout_S{
+    @include layout-S;
+    --MY : 40px;
+}
+
+.image_x_auto > span{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.font_header{
+    font-size: 45px;
+    line-height: 65px;
+}
+
+.font_header *{
+    font-size: 45px !important;
+    line-height: 65px;
+}
+
+.font_sub_header{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.font_sub_header *{
+    font-size: 30px !important;
+    line-height: 50px;
+}
+
+.bg_gradient_dark{
+    background: #6c2bbb;
+    background: linear-gradient(0deg, #311561 0%, #330034 100%);
+}
+
+.bottom_triangle_gradient{
+    position: relative;
+    overflow: hidden;
+}
+
+.bottom_triangle_gradient > *{
+    z-index: 1;
+}
+
+.bottom_triangle_gradient::after{
+    content: " ";
+    background: linear-gradient(30deg, #100468 60%, #B32FBC 80%);
+    width: 300%;
+    height: 100%;
+    position: absolute;
+    transform: rotate(-26deg);
+    bottom: -5.7%;
+    left: -50%;
+    opacity: 50%;
+}
+
+.rotate_90{
+    transform: rotate(90deg);
+}
+
+.rotate_180{
+    transform: rotate(180deg);
+}
+
+.rotate_270{
+    transform: rotate(270deg);
+}
