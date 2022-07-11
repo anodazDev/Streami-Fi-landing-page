@@ -10,12 +10,12 @@ import Styles from '../styles/components/PlatfromGameplay.module.scss'
 export default function index() {
   return (
     <>
-      <div className={`${Styles.bottom_triangle_gradient} ${'flex bg-gradient-to-b from-primary-600 to-[#0B0B0B]'}`}>
+      <div className={`${Styles.bottom_triangle_gradient} ${'flex bg-gradient-to-b from-primary-600 to-[#000000]'}`}>
         <div className={`${'mx-auto w-full relative'}`}>
           {/* Platfrom */}
           <div className={`${Styles.layout_L}  ${'!mb-32 flex flex-col'}`}>
             {/* Platfrom Main Image */}
-            <div className={` ${' w-4/5 mx-auto relative'}`} data-aos="fade-in">
+            <div className={` ${'  mx-auto relative'} ${'w-full xl:w-4/5'}`} data-aos="fade-in">
               <Image
                 src={PlatfromBoxImage}
                 alt="Picture of the author"
@@ -116,20 +116,20 @@ export default function index() {
             </div>
           </div>
           {/* Gameplay Content*/}
-          <div className={`${'relative'}`}>
-            <div className={`${Styles.layout_L} ${'!mb-40'}`}>
+          <div className={`${'relative '} ${' min-h-fit xl:min-h-[480px]'}`}>
+            <div className={`${Styles.layout_L} ${'!mb-24 lg:!mb-40'} `}>
               <div className={`
               ${' flex min-h-[200px] w-full relative '}
               ${'flex-col lg:flex-row'}
               `}>
                 {/* Gameplay Title*/}
                 <div className={`${'w-full flex justify-center items-center'} ${'lg:w-5/12 mb-8'}`} data-aos="fade-left">
-                  <h1 className={`${'m-auto text-white font-bold !text-6xl'}`}>Gameplay</h1>
+                  <h1 className={`${'m-auto text-white font-bold '} ${'!text-4xl lg:!text-6xl'}`}>Gameplay</h1>
                 </div>
                 {/* Gameplay Description*/}
-                <div className={` ${'w-10/12 flex items-center border-white border-4 rounded-3xl mx-auto'} ${'lg:w-7/12'}`} data-aos="fade-right">
-                  <div className={` ${'w-12 h-full border-r-4 border-white border-dashed'}`}></div>
-                  <div className={`${'w-9/12 p-6 flex mx-auto '}`}>
+                <div className={` ${' flex items-center border-white border-4 rounded-3xl mx-auto'} ${'w-full md:w-10/12 lg:w-7/12'}`} data-aos="fade-right">
+                  <div className={` ${'w-12 h-full border-r-4 border-white border-dashed'} ${'hidden lg:block'}`}></div>
+                  <div className={`${' p-6 flex mx-auto '} ${'w-full lg:w-9/12'}`}>
                     <p className=' text-white'>
                       <span className={` text-red-500`}>Streami-Fi </span>
                       is a music listening platform that lets you earn
