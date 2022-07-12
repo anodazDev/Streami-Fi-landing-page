@@ -52,17 +52,17 @@
     z-index: 1;
 }
 
-.bottom_triangle_gradient::after{
-    content: " ";
-    background: linear-gradient(30deg, #100468 60%, #B32FBC 80%);
-    width: 300%;
-    height: 100%;
-    position: absolute;
-    transform: rotate(-26deg);
-    bottom: -5.7%;
-    left: -50%;
-    opacity: 50%;
-}
+// .bottom_triangle_gradient::after{
+//     content: " ";
+//     background: linear-gradient(30deg, #100468 60%, #B32FBC 80%);
+//     width: 300%;
+//     height: 100%;
+//     position: absolute;
+//     transform: rotate(-26deg);
+//     bottom: -5.7%;
+//     left: -50%;
+//     opacity: 50%;
+// }
 
 .rotate_90{
     transform: rotate(90deg);
