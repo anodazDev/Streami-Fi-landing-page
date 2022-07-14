@@ -31,7 +31,7 @@
   @media screen and (max-width: 360px) {
     width: 100%;
     min-width: 0px;
-    max-width: 250px;
+    max-width: 320px;
   }
 }
 @mixin layout-M {
@@ -67,7 +67,7 @@
   @media screen and (max-width: 360px) {
     width: 100%;
     min-width: 0px;
-    max-width: 202px;
+    max-width: 300px;
   }
 }
 @mixin layout-S {
@@ -103,6 +103,6 @@
   @media screen and (max-width: 360px) {
     width: 100%;
     min-width: 0px;
-    max-width: 154px;
+    max-width: 280px;
   }
 }

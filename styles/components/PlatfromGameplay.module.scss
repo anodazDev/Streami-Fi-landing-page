@@ -3,7 +3,11 @@
 .layout_L {
   @include layout-L;
   --MY: 40px;
+  @media screen and (max-width: 640px) {
+    --MY: 20px;
+  }
 }
+
 .layout_M {
   @include layout-M;
   --MY: 40px;
@@ -31,7 +35,7 @@
   content: " ";
   background-image: url('../../public/media/img/Gameplay/GameplayOverlay.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
   width: 100%;
   height: 280px;

@@ -11,12 +11,8 @@
     height: 100%;
     background-image: url("../../public/media/img/Case/overlay.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: bottom;
     z-index: 0;
   }
-}
-
-.layout_L {
-  @include layout-L;
 }
