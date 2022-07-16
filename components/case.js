@@ -5,14 +5,21 @@ import Styles from '../styles/components/case.module.scss'
 export default function Case() {
     return (
         <>
-            <div className={`${Styles.overlay} ${' bg-gradient-to-br from-primary-300 to-supplement-500 flex align-bottom'} ${'min-h-auto 2xl:min-h-[640px]'}`}>
+            <div className={`
+                ${Styles.overlay} 
+                ${' bg-gradient-to-br from-primary-300 to-supplement-500 flex align-bottom'} 
+                ${'min-h-auto 2xl:min-h-[640px]'}
+            `}>
                 <div className={` ${' flex  flex-wrap '}`}>
                     <div className={`${' mx-[4%] w-full flex justify-end relative'}`}>
                         <div className={`${' w-fit px-5 py-2 justify-center items-center bg-black rounded-[9999px] absolute bottom-1/2 translate-y-1/2'}`}>
                             <h2 className={`${'text-white'}`}>ASSETUSE CASE</h2>
                         </div>
                     </div>
-                    <div className={`${'  items-center justify-center relative z-[2] '} ${' hidden lg:flex w-full lg:w-4/12 '}`}>
+                    <div className={`
+                        ${'items-center justify-center relative z-[2] '} 
+                        ${' hidden lg:flex w-full lg:w-4/12 '}
+                    `}>
                         <img
                             data-aos="fade-right"
                             data-aos-delay="200"
