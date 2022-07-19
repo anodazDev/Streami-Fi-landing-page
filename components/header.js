@@ -2,7 +2,7 @@ import React from 'react'
 import Styles from '../styles/components/header.module.scss'
 // import Headerbackground from '../public/media/img/Headerbackground.svg'
 
-import Image from 'next/image'
+import Image from "next/future/image"
 import ListenToEarn from '../public/media/img/Header/ListenToEarn.png'
 import Model from '../public/media/img/Header/Model.png'
 
@@ -53,13 +53,13 @@ export default function head() {
                 layout='intrinsic'
               />
               {/* absolute image */}
-              <img
-                data-aos='fade-left'
-                data-aos-delay='200'
-                className={`${'img-fluid  absolute -right-2 '} ${'w-2/5 2xl:w-[35%]  -top-[35%] xl:-top-[20%] 2xl:-top-[10%]'}`}
-                src='../media/img/Header/Model.png'
-                alt="Model"
-              />
+                <Image
+                  data-aos='fade-left'
+                  data-aos-delay='200'
+                  className={`${'img-fluid  absolute -right-2 '} ${'w-2/5 2xl:w-[35%]  -top-[35%] xl:-top-[20%] 2xl:-top-[10%]'}`}
+                  src='../media/img/Header/Model.png'
+                  alt="Model"
+                />
             </div>
           </div>
 
