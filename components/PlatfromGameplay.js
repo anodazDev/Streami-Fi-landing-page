@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import PlatfromBoxImage from '../public/media/img/Platfrom/PlatfromBox.svg'
-import GameplayBoxImage from '../public/media/img/Gameplay/GameplayBox.svg'
-import GameplayArrowImage from '../public/media/img/Gameplay/GameplayArrow.svg'
-import GameplayGoodImage from '../public/media/img/Gameplay/GameplayGood.svg'
-import GameplayPerfectImage from '../public/media/img/Gameplay/GameplayPerfect.svg'
+import PlatfromBoxImage from '/public/media/img/Platfrom/PlatfromBox.svg'
+import GameplayBoxImage from '/public/media/img/Gameplay/GameplayBox.svg'
+import GameplayArrowImage from '/public/media/img/Gameplay/GameplayArrow.svg'
+import GameplayGoodImage from '/public/media/img/Gameplay/GameplayGood.svg'
+import GameplayPerfectImage from '/public/media/img/Gameplay/GameplayPerfect.svg'
 import Styles from '../styles/components/PlatfromGameplay.module.scss'
 
 export default function index() {
