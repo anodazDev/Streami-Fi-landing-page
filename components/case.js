@@ -18,7 +18,7 @@ export default function Case() {
                     </div>
                     <div className={`
                         ${'items-center justify-center relative z-[2] '} 
-                        ${' hidden lg:flex w-full lg:w-4/12 xl:5/12 '}
+                        ${' hidden lg:flex w-full lg:w-4/12 xl:w-5/12 '}
                     `}>
                         <div className={`${'img-fluid w-full object-bottom absolute bottom-0 overflow-y-hidden '} `}>
                             
