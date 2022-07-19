@@ -20,7 +20,7 @@ export default function Case() {
                         ${'items-center justify-center relative z-[2] '} 
                         ${' hidden lg:flex w-full lg:w-4/12 xl:w-5/12 '}
                     `}>
-                        <div className={`${' flex items-center absolute bottom-0 overflow-y-hidden '} `}>
+                        <div className={`${' flex  h-full absolute bottom-0 overflow-y-hidden '} ${'items-center xl:items-end'} `}>
 
                             <img
                                 className={`${'img-fluid w-full'} ${' mb-0 xl:-mb-[18%]'}`}
