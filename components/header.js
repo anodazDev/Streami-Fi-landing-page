@@ -53,7 +53,7 @@ export default function head() {
                 layout='intrinsic'
               />
               {/* absolute image */}
-                <Image
+                <img
                   data-aos='fade-left'
                   data-aos-delay='200'
                   className={`${'img-fluid  absolute -right-2 '} ${'w-2/5 2xl:w-[35%]  -top-[35%] xl:-top-[20%] 2xl:-top-[10%]'}`}
