@@ -26,7 +26,7 @@ export default function Case() {
                                 data-aos="fade-right"
                                 data-aos-delay="200"
                                 alt='Streami-Fi Streami Fi'
-                                src='/media/img/Case/Headphone.png'
+                                src='../media/img/Case/Headphone.png'
                             />
                         </div>
                     </div>
