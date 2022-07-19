@@ -10,7 +10,7 @@ export default function Case() {
                 ${' bg-gradient-to-br from-primary-300 to-supplement-500 flex align-bottom'} 
                 ${'min-h-auto 2xl:min-h-[640px]'}
             `}>
-                <div className={` ${' flex  flex-wrap '}`}>
+                <div className={`${Styles.layout_L} ${' flex  flex-wrap '}`}>
                     <div className={`${' mx-[4%] w-full flex justify-end relative'}`}>
                         <div className={`${' w-fit px-5 py-2 justify-center items-center bg-black rounded-[9999px] absolute bottom-1/2 translate-y-1/2'}`}>
                             <h2 className={`${'text-white'}`}>ASSETUSE CASE</h2>
@@ -20,15 +20,13 @@ export default function Case() {
                         ${'items-center justify-center relative z-[2] '} 
                         ${' hidden lg:flex w-full lg:w-5/12 '}
                     `}>
-                        <div className={`${'img-fluid w-full object-bottom absolute bottom-0 '} ${'h-[0] lg:h-[80%] xl:h-[112%] 2xl:h-[150%]'}`}>
+                        <div className={`${'img-fluid w-full object-bottom absolute bottom-0 '} `}>
                             
-                            <Image
+                            <img
                                 data-aos="fade-right"
                                 data-aos-delay="200"
                                 alt='Streami-Fi Streami Fi'
                                 src='/media/img/Case/Headphone.png'
-                                layout='fill'
-                                objectPosition={'bottom'}
                             />
                         </div>
                     </div>

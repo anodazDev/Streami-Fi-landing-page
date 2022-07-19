@@ -1,4 +1,7 @@
 @import "../systems/layout.scss";
+.layout_L{
+  @include layout_L;
+}
 
 .overlay {
   position: relative;
