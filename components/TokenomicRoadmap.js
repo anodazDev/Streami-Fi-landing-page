@@ -10,10 +10,10 @@ import Styles from '../styles/components/TokenomicRoadmap.module.scss'
 export default function index() {
     return (
         <>
-            <div className={`${Styles.bg_gradient_dark} ${Styles.bottom_triangle_gradient} ${'flex'}`}>
+            <div className={`${Styles.bg_gradient_dark} ${Styles.bottom_triangle_gradient} ${'flex pt-32'}`}>
                 <div className={`${'mx-auto w-full'}`}>
                     {/* Tokenomic */}
-                    <div className={`${'relative flex flex-col mb-16'}`}>
+                    <div className={`${'relative flex flex-col '}`}>
                         {/* Tokenomic Main Box*/}
                         <div className={`${Styles.layout_L} ${''} `}>
                             {/* Tokenomic title */}
