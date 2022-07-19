@@ -53,13 +53,17 @@ export default function head() {
                 layout='intrinsic'
               />
               {/* absolute image */}
-                <img
+              <div className={`${'img-fluid  absolute -right-2 h-[500px]'} ${'w-2/5 2xl:w-[35%]  -top-[35%] xl:-top-[20%] 2xl:-top-[10%]'}`} >
+
+                <Image
                   data-aos='fade-left'
+                  layout="fill"
                   data-aos-delay='200'
-                  className={`${'img-fluid  absolute -right-2 '} ${'w-2/5 2xl:w-[35%]  -top-[35%] xl:-top-[20%] 2xl:-top-[10%]'}`}
+                  // width={100}
                   src='../media/img/Header/Model.png'
                   alt="Model"
-                />
+                  />
+                  </div>
             </div>
           </div>
 
