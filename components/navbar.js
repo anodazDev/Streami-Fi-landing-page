@@ -3,7 +3,7 @@ import Styles from '../styles/components/navbar.module.scss'
 import Link from 'next/link'
 import Image from 'next/image'
 import LogoImage from '../public/media/img/Nav/Logo.png'
-export default function navbar() {
+export default function Navbar() {
     const [colorscroll, setColorscroll] = useState(false)
     const changeColor = () => {
         if (window.scrollY > 60) {
