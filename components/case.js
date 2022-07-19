@@ -20,9 +20,10 @@ export default function Case() {
                         ${'items-center justify-center relative z-[2] '} 
                         ${' hidden lg:flex w-full lg:w-4/12 xl:5/12 '}
                     `}>
-                        <div className={`${'img-fluid w-full object-bottom absolute bottom-0 '} `}>
+                        <div className={`${'img-fluid w-full object-bottom absolute bottom-0 overflow-y-hidden '} `}>
                             
                             <img
+                            className={`${'-mb-[18%]'}`}
                                 data-aos="fade-right"
                                 data-aos-delay="200"
                                 alt='Streami-Fi Streami Fi'
