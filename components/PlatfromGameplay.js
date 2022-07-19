@@ -44,7 +44,7 @@ export default function index() {
                     layout='intrinsic'
                   />
                   {/* image left */}
-                  <div className={`${'absolute top-[15%] -left-8'}`} data-aos="fade-left" data-aos-delay="600">
+                  <div className={`${'absolute top-[15%] -left-8'} ${'hidden lg:block opacity-50 md:opacity-100'}`} data-aos="fade-left" data-aos-delay="600">
                     <Image
                       src={GameplayArrowImage}
                       alt="Picture of the author"
@@ -54,46 +54,44 @@ export default function index() {
                     />
                   </div>
                   {/* perfect */}
-                  <div className={`${'absolute top-1/2 -left-20'}`} data-aos="zoom-out" data-aos-delay="600">
+                  <div className={`${'absolute top-1/2  w-4/12 '} ${' -left-4 md:-left-10 lg:-left-20'}`} data-aos="zoom-out" data-aos-delay="600">
                     <Image
                       src={GameplayPerfectImage}
                       alt="Picture of the author"
-                      layout='intrinsic'
+                      layout='responsive'
                     />
                   </div>
                   {/* image bottom */}
-                  <div className={`${'absolute bottom-[5%] left-[15%]'}`} data-aos="fade-down" data-aos-delay="300">
+                  <div className={`${'absolute bottom-[5%] left-[15%] w-[10%] transform !rotate-180'}  `}
+                    data-aos="fade-down" data-aos-delay="300" >
                     <Image
                       src={GameplayArrowImage}
                       alt="Picture of the author"
-                      width="80"
-                      height="80"
-                      className={`${Styles.rotate_180} ${'mx-auto'}`}
+                      layout='responsive'
                     />
                   </div>
                   {/* image right */}
-                  <div className={`${'absolute top-[8%] -right-4 w-[32px] h-[32px]'}`} data-aos="fade-up" data-aos-delay="400">
+                  <div className={`${'absolute top-[8%] -right-4 w-[32px] h-[32px]'} `} >
                     <Image
+                      data-aos="fade-up" data-aos-delay="400"
                       src={GameplayArrowImage}
                       alt="Picture of the author"
-                      layout='intrinsic'
-                      className={`${'mx-auto'}`}
+                      layout='responsive'
                     />
                   </div>
                   {/* good */}
-                  <div className={`${'absolute top-1/4 -right-8 '}`} data-aos="zoom-out" data-aos-delay="400">
+                  <div className={`${'absolute top-1/4 -right-8  w-5/12'}`} data-aos="zoom-out" data-aos-delay="400">
                     <Image
                       src={GameplayGoodImage}
                       alt="Picture of the author"
-                      layout='intrinsic'
-                      className={`${'mx-auto'}`}
+                      layout='responsive'
                     />
                   </div>
                 </div>
               </div>
             </div>
             {/* Gameplay Compenent Box*/}
-            <div className={`${'absolute w-full h-full top-0 -z-10'}`}>
+            <div className={`${'absolute w-full h-full top-0 -z-10'} ${'opacity-50 md:opacity-100'}`}>
               {/* top left */}
               <div className={`${'absolute left-[-60px]'}`} data-aos="fade-up" data-aos-delay="200">
                 <Image

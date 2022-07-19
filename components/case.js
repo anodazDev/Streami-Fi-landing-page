@@ -41,12 +41,14 @@ export default function Case() {
                                 data-aos-delay="200"
                             >
                                 <div className={`${'border-b-2 border-white w-3/4 mb-4'}`}>
-                                    <h4 className={`${'text-white  break-normal w-[125%]'}`}>
+                                    <h3 className={`${'text-white  break-normal w-[125%]'}`}>
                                         Year of Purchase
-                                    </h4>
+                                    </h3>
                                 </div>
                                 <div className={`${'text-white'}`}>
-                                    Match the year of purchase of the headphones to the song for extra tokens!
+                                    <h4>
+                                        Match the year of purchase of the headphones to the song for extra tokens!
+                                    </h4>
                                 </div>
                             </div>
                         </div>
@@ -59,17 +61,19 @@ export default function Case() {
                                 data-aos-delay="400"
                             >
                                 <div className={`${'border-b-2 border-white w-3/4 mb-4'}`}>
-                                    <h4 className={`${'text-white  break-normal w-[125%]'}`}>
+                                    <h3 className={`${'text-white  break-normal w-[125%]'}`}>
                                         Streami-fi Headphones
-                                    </h4>
+                                    </h3>
                                 </div>
                                 <div className={`${'text-white'}`}>
-                                    For a limited time, a random headphones
-                                    box will be available
-                                    for purchase, and users who
-                                    own headphones will be rewarded with
-                                    more SMF tokens
-                                    while playinggames or listening to music.
+                                    <h4>
+                                        For a limited time, a random headphones
+                                        box will be available
+                                        for purchase, and users who
+                                        own headphones will be rewarded with
+                                        more SMF tokens
+                                        while playinggames or listening to music.
+                                    </h4>
 
                                 </div>
                             </div>
@@ -83,16 +87,19 @@ export default function Case() {
                                 data-aos-delay="600"
                             >
                                 <div className={`${'border-b-2 border-white w-3/4 mb-4'}`}>
-                                    <h4 className={`${'text-white  break-normal w-[125%]'}`}>
+                                    <h3 className={`${'text-white  break-normal w-[125%]'}`}>
                                         Limited Artist Edition
-                                    </h4>
+                                    </h3>
                                 </div>
                                 <div className={`${'text-white'}`}>
-                                    Artist-themed
-                                    or signatureheadphones
-                                    that increase the number
-                                    of tokens youreceive when you play
-                                    or listen to their music.
+                                    <h4>
+                                        Artist-themed
+                                        or signatureheadphones
+                                        that increase the number
+                                        of tokens youreceive when you play
+                                        or listen to their music.
+                                    </h4>
+
                                 </div>
                             </div>
                         </div>
@@ -105,16 +112,18 @@ export default function Case() {
                                 data-aos-delay="800"
                             >
                                 <div className={`${'border-b-2 border-white w-3/4 mb-4'}`}>
-                                    <h4 className={`${'text-white  break-normal w-[125%]'}`}>
+                                    <h3 className={`${'text-white  break-normal w-[125%]'}`}>
                                         Gift
-                                    </h4>
+                                    </h3>
                                 </div>
                                 <div className={`${'text-white'}`}>
-                                    Users can purchase Gifts
-                                    to sendto someone they like while they
-                                    perform or play the game.The higher
-                                    the value of
-                                    the gift, the more tokensthe recipient will receive.
+                                    <h4>
+                                        Users can purchase Gifts
+                                        to sendto someone they like while they
+                                        perform or play the game.The higher
+                                        the value of
+                                        the gift, the more tokensthe recipient will receive.
+                                    </h4>
                                 </div>
                             </div>
                         </div>

@@ -18,7 +18,7 @@ export default function index() {
                         <div className={`${Styles.layout_L} ${''} `}>
                             {/* Tokenomic title */}
                             <div className={`${'container mx-auto mb-8 text-center'}`} data-aos="zoom-out">
-                                <label className={`${Styles.font_header} ${'font-semibold text-white'}`}>TOKENOMIC</label>
+                                <label className={`${'font-semibold text-white '} ${'text-3xl md:text-4xl '}`}>TOKENOMIC</label>
                             </div>
                             {/* Tokenomic Image */}
                             <div className={` ${' mx-auto'}`}>
@@ -34,7 +34,7 @@ export default function index() {
                             </div>
                             {/* Tokenomic decsription */}
                             <div className={`${'container mx-auto text-center'}`} data-aos="fade-in">
-                                <label className={`${Styles.font_sub_header} ${'font-semibold text-white'}`}>Total amount 1000000</label>
+                                <label className={`${'font-semibold text-white'} ${' text-xl lg:text-3xl'}`}>Total amount 1000000</label>
                             </div>
                             {/* top left */}
                             <div className={`${'absolute right-[32%] top-[11%]'} ${'hidden xl:block'}`} data-aos="fade-up" data-aos-delay="200">
