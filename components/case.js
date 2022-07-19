@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "next/future/image"
+import Image from "next/image"
 import Styles from '../styles/components/case.module.scss'
 
 export default function Case() {
