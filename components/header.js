@@ -4,7 +4,7 @@ import Styles from '/styles/components/header.module.scss'
 
 import Image from 'next/image'
 import ListenToEarn from '/public/media/img/Header/ListenToEarn.png'
-// import Model from '../public/media/img/Header/Model.png'
+import ModelCharator from '../public/media/img/Header/Model.png'
 
 export default function head() {
   return (
@@ -60,7 +60,7 @@ export default function head() {
                   layout="fill"
                   data-aos-delay='200'
                   // width={100}
-                  src='../media/img/Header/Model.png'
+                  src={ModelCharator}
                   alt="Model"
                   />
                   </div>
