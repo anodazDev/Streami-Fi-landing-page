@@ -20,15 +20,14 @@ export default function Case() {
                         ${'items-center justify-center relative z-[2] '} 
                         ${' hidden lg:flex w-full lg:w-4/12 '}
                     `}>
-                        <picture>
                         <Image
                             data-aos="fade-right"
                             data-aos-delay="200"
                             alt='Streami-Fi Streami Fi'
                             className={`${'img-fluid w-full object-bottom absolute bottom-0'}`}
-                            src='../media/img/Case/Headphone.png'
+                            src='/media/img/Case/Headphone.png'
+                            layout='fill'
                         />
-                        </picture>
                     </div>
                     <div className={`${'  mt-14 flex flex-wrap p-2'} ${'w-full lg:w-8/12 '}`}>
                         <div className={`${'flex flex-wrap   p-2'} ${'w-full sm:w-1/2'}`}>
