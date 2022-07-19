@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import TokenomicChartImage from '../public/media/img/Tokenomic/TokenomicChart.png'
-import TokenomicLogoComponent from '../public/media/img/Tokenomic/Logo_round.png'
-import TokenomicBlurLogoComponent from '../public/media/img/Tokenomic/Logo_round_blur.png'
-import RoadmapImage from '../public/media/img/Roadmap/Roadmap.svg'
-import GradientImage from '../public/media/img/Tokenomic/Gradient.png'
+import TokenomicChartImage from '/public/media/img/Tokenomic/TokenomicChart.png'
+import TokenomicLogoComponent from '/public/media/img/Tokenomic/Logo_round.png'
+import TokenomicBlurLogoComponent from '/public/media/img/Tokenomic/Logo_round_blur.png'
+import RoadmapImage from '/public/media/img/Roadmap/Roadmap.svg'
+import GradientImage from '/public/media/img/Tokenomic/Gradient.png'
 import Styles from '../styles/components/TokenomicRoadmap.module.scss'
 
 export default function index() {

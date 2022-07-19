@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Styles from '/styles/components/navbar.module.scss'
 import Link from 'next/link'
 import Image from 'next/image'
-import LogoImage from '../public/media/img/Nav/logo.png'
+import LogoImage from '/public/media/img/Nav/logo.png'
 export default function Navbar() {
     const [colorscroll, setColorscroll] = useState(false)
     const changeColor = () => {
