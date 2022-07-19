@@ -1,9 +1,9 @@
 import React from 'react'
-import Styles from '../styles/components/header.module.scss'
+import Styles from '/styles/components/header.module.scss'
 // import Headerbackground from '../public/media/img/Headerbackground.svg'
 
 import Image from "next/future/image"
-import ListenToEarn from '../public/media/img/Header/ListenToEarn.png'
+import ListenToEarn from '/public/media/img/Header/ListenToEarn.png'
 import Model from '../public/media/img/Header/Model.png'
 
 export default function head() {
