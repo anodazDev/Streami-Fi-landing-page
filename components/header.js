@@ -2,15 +2,9 @@ import React from 'react'
 import Styles from '/styles/components/header.module.scss'
 // import Headerbackground from '../public/media/img/Headerbackground.svg'
 
-<<<<<<< Updated upstream
-import Image from "next/future/image"
-import ListenToEarn from '/public/media/img/Header/ListenToEarn.png'
-import Model from '../public/media/img/Header/Model.png'
-=======
 import Image from 'next/image'
 import ListenToEarn from '/public/media/img/Header/ListenToEarn.png'
 // import Model from '../public/media/img/Header/Model.png'
->>>>>>> Stashed changes
 
 export default function head() {
   return (
