@@ -136,9 +136,9 @@ export default function index() {
                 {/* Gameplay Description*/}
                 <div className={` ${' flex items-center border-white border-4 rounded-3xl mx-auto'} ${'w-full md:w-10/12 lg:w-7/12'}`} data-aos="fade-right">
                   <div className={` ${'w-12 h-full border-r-4 border-white border-dashed'} ${'hidden lg:block'}`}></div>
-                  <div className={`${' p-6 flex mx-auto '} ${'w-full lg:w-9/12'}`}>
-                    <p className=' text-white'>
-                      <span className={` text-red-500`}>Streami-Fi </span>
+                  <div className={`${' p-6 flex mx-auto '} ${'w-full lg:w-10/12'}`}>
+                    <p className={`${' text-white !text-lg'}`}>
+                      <span className={`${'text-red-500 !text-lg'} `}>Streami-Fi </span>
                       is a music listening platform that lets you earn
                       by listening to music from your favorite artists. or new artists
                       and new songs then  We are also d eveloping games for you to

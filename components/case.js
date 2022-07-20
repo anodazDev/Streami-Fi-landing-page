@@ -15,8 +15,8 @@ export default function Case() {
                 <div className={`${Styles.layout_L} ${' pb-4 flex  flex-wrap '}`}>
                     {/* Asset Use Case  */}
                     <div className={`${'  w-full flex  relative'} ${' justify-center lg:justify-end'}`}>
-                        <div className={`${' w-fit px-8 py-2 justify-center items-center bg-[#111111] rounded-[9999px] absolute bottom-1/2 translate-y-1/2'}`}>
-                            <h2 className={`${'text-white'}`}>Asset Use Case</h2>
+                        <div className={`${' w-fit px-12 py-2 justify-center items-center bg-[#111111] rounded-[9999px] absolute bottom-1/2 translate-y-1/2'}`}>
+                            <h1 className={`${'text-white '}`}>Asset Use Case</h1>
                         </div>
                     </div>
                     {/* headphones */}

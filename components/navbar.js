@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import LogoImage from '/public/media/img/Nav/Logo.png'
 import Bar from '/public/media/img/Nav/Bar.png'
-import Close from '/public/media/img/Nav/Close.png'
+import Close from '/public/media/img/Nav/Close.png' 
 export default function Navbar() {
     const [colorscroll, setColorscroll] = useState(false)
     const [navActive, setNavActive] = useState(false)
