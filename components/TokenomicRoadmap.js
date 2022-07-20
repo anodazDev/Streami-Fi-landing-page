@@ -17,27 +17,30 @@ export default function index() {
                         {/* Tokenomic Main Box*/}
                         <div className={`${Styles.layout_L} ${''} `}>
                             {/* Tokenomic title */}
-                            <div className={`${'container mx-auto mb-8 text-center'}`} data-aos="zoom-out">
-                                <label className={`${'font-semibold text-white '} ${'text-3xl md:text-4xl '}`}>TOKENOMIC</label>
+                            <div className={`${'container mx-auto mb-16 text-center'}`} data-aos="zoom-out">
+                                <label className={`${'font-semibold text-white '} ${'text-3xl md:text-4xl xl:text-5xl '}`}>TOKENOMIC</label>
                             </div>
                             {/* Tokenomic Image */}
-                            <div className={` ${' mx-auto'}`}>
+                            <div className={` ${Styles.layout_L}`}>
                                 <div className={`${Styles.image_x_auto} ${'container flex mx-auto mb-8'}`} data-aos="fade-in">
                                     <Image
                                         src={TokenomicChartImage}
                                         alt="Picture of the author"
-                                        width="700"
-                                        height="350"
+                                        layout='intrinsic'
                                         className="mx-auto"
                                     />
                                 </div>
                             </div>
                             {/* Tokenomic decsription */}
                             <div className={`${'container mx-auto text-center'}`} data-aos="fade-in">
-                                <label className={`${'font-semibold text-white'} ${' text-xl lg:text-3xl'}`}>Total amount 1000000</label>
+                                <label className={`${'font-semibold text-white'} ${' text-xl lg:text-3xl'}`}>Total Amount 1,000,000</label>
                             </div>
                             {/* top left */}
-                            <div className={`${'absolute right-[32%] top-[11%]'} ${'hidden xl:block'}`} data-aos="fade-up" data-aos-delay="200">
+
+                        </div>
+                        {/* Tokenomic Compenent Box*/}
+                        <div className={`${'absolute w-full h-full top-0 -z-10'} ${'!opacity-50 xl:!opacity-100'}`}>
+                            <div className={`${'absolute right-[32%] top-[4%]'} ${'hidden xl:block'}`} data-aos="fade-up" data-aos-delay="200">
                                 <Image
                                     src={TokenomicBlurLogoComponent}
                                     alt="Picture of the author"
@@ -54,11 +57,8 @@ export default function index() {
                                     height="40"
                                 />
                             </div>
-                        </div>
-                        {/* Tokenomic Compenent Box*/}
-                        <div className={`${'absolute w-full h-full top-0 -z-10'}`}>
                             {/* top left */}
-                            <div className={`${'absolute left-[-65px] top-[20%]'} ${'!opacity-25 xl:!opacity-100'}`} data-aos="fade-up" data-aos-delay="200">
+                            <div className={`${'absolute left-[-65px] top-[20%]'} `} data-aos="fade-up" data-aos-delay="200">
                                 <Image
                                     src={TokenomicLogoComponent}
                                     alt="Picture of the author"
@@ -67,7 +67,7 @@ export default function index() {
                                 />
                             </div>
                             {/* top right */}
-                            <div className={`${'absolute right-[-70px] top-[15%]'} ${'!opacity-25 xl:!opacity-100'}`} data-aos="fade-down" data-aos-delay="300">
+                            <div className={`${'absolute right-[-70px] top-[15%]'} `} data-aos="fade-down" data-aos-delay="300">
                                 <Image
                                     src={TokenomicLogoComponent}
                                     alt="Picture of the author"
@@ -76,7 +76,7 @@ export default function index() {
                                 />
                             </div>
                             {/* bottom left */}
-                            <div className={`${'absolute left-[15%] top-[65%]'} ${'!opacity-25 xl:!opacity-100'}`} data-aos="fade-down" data-aos-delay="400">
+                            <div className={`${'absolute left-[15%] top-[65%]'} `} data-aos="fade-down" data-aos-delay="400">
                                 <Image
                                     src={TokenomicLogoComponent}
                                     alt="Picture of the author"
@@ -85,7 +85,7 @@ export default function index() {
                                 />
                             </div>
                             {/* bottom right */}
-                            <div className={`${'absolute right-[15%] top-[55%]'} ${'!opacity-25 xl:!opacity-100'}`} data-aos="fade-down" data-aos-delay="500">
+                            <div className={`${'absolute right-[15%] top-[55%]'} `} data-aos="fade-down" data-aos-delay="500">
                                 <Image
                                     src={TokenomicLogoComponent}
                                     alt="Picture of the author"

@@ -4,3 +4,9 @@
 .Inactive{
     background-color: rgba($color: #000, $alpha: 0);
 }
+.navActive{
+    left: 0;
+}
+.navInactive{
+    left: -100%;
+}

@@ -5,19 +5,23 @@ import Styles from '../styles/components/case.module.scss'
 export default function Case() {
     return (
         <>
+        {/* background */}
             <div className={`
                 ${Styles.overlay} 
                 ${' bg-gradient-to-br from-primary-300 to-supplement-500 flex align-bottom'} 
                 ${'min-h-auto 2xl:min-h-[640px]'}
             `}>
-                <div className={`${Styles.layout_L} ${' flex  flex-wrap '}`}>
-                    <div className={`${' mx-[4%] w-full flex justify-end relative'}`}>
-                        <div className={`${' w-fit px-5 py-2 justify-center items-center bg-black rounded-[9999px] absolute bottom-1/2 translate-y-1/2'}`}>
-                            <h2 className={`${'text-white'}`}>ASSETUSE CASE</h2>
+                {/* layout spaceing */}
+                <div className={`${Styles.layout_L} ${' pb-4 flex  flex-wrap '}`}>
+                    {/* Asset Use Case  */}
+                    <div className={`${'  w-full flex  relative'} ${' justify-center lg:justify-end'}`}>
+                        <div className={`${' w-fit px-8 py-2 justify-center items-center bg-[#111111] rounded-[9999px] absolute bottom-1/2 translate-y-1/2'}`}>
+                            <h2 className={`${'text-white'}`}>Asset Use Case</h2>
                         </div>
                     </div>
+                    {/* headphones */}
                     <div className={`
-                        ${'items-center justify-center relative z-[2] '} 
+                        ${'items-center justify-center relative z-[2] pr-2 '} 
                         ${' hidden lg:flex w-full lg:w-4/12 xl:w-5/12 '}
                     `}>
                         <div className={`${' flex  h-full absolute bottom-0  '} ${'items-center xl:items-end'} `}>
@@ -31,7 +35,8 @@ export default function Case() {
                             />
                         </div>
                     </div>
-                    <div className={`${'  mt-14 flex flex-wrap p-2'} ${'w-full lg:w-8/12 xl:w-7/12  '}`}>
+                    {/* content right */}
+                    <div className={`${'  mt-14 flex flex-wrap '} ${'w-full lg:w-8/12 xl:w-7/12  '}`}>
                         <div className={`${'flex flex-wrap   p-2'} ${'w-full sm:w-1/2'}`}>
                             <div className={`
                                 ${'w-full border-2 border-white rounded-xl p-4'} 
