@@ -8,7 +8,7 @@ export default function Case() {
         {/* background */}
             <div className={`
                 ${Styles.overlay} 
-                ${' bg-gradient-to-br from-primary-300 to-supplement-500 flex align-bottom'} 
+                ${' bg-gradient-to-br from-[#C52CD1] to-[#F66D5C] flex align-bottom'} 
                 ${'min-h-auto 2xl:min-h-[640px]'}
             `}>
                 {/* layout spaceing */}
@@ -16,7 +16,7 @@ export default function Case() {
                     {/* Asset Use Case  */}
                     <div className={`${'  w-full flex  relative'} ${' justify-center lg:justify-end'}`}>
                         <div className={`${' w-fit px-12 py-2 justify-center items-center bg-[#111111] rounded-[9999px] absolute bottom-1/2 translate-y-1/2'}`}>
-                            <h1 className={`${'text-white '}`}>Asset Use Case</h1>
+                            <h1 className={`${'text-white !text-5xl '}`}>Asset Use Case</h1>
                         </div>
                     </div>
                     {/* headphones */}
@@ -37,7 +37,7 @@ export default function Case() {
                     </div>
                     {/* content right */}
                     <div className={`${'  mt-14 flex flex-wrap '} ${'w-full lg:w-8/12 xl:w-7/12  '}`}>
-                        <div className={`${'flex flex-wrap   p-2'} ${'w-full sm:w-1/2'}`}>
+                        <div className={`${'flex flex-wrap   p-4'} ${'w-full sm:w-1/2'}`}>
                             <div className={`
                                 ${'w-full border-2 border-white rounded-xl p-4'} 
                                 ${'bg-black/[0.25] sm:bg-transparent'}
@@ -50,14 +50,14 @@ export default function Case() {
                                         Year of Purchase
                                     </h3>
                                 </div>
-                                <div className={`${'text-white'}`}>
+                                <div className={`${'text-[#260742] font-semibold '}`}>
                                     <h4>
                                         Match the year of purchase of the headphones to the song for extra tokens!
                                     </h4>
                                 </div>
                             </div>
                         </div>
-                        <div className={`${' flex  flex-wrap p-2'} ${'w-full sm:w-1/2'}`}>
+                        <div className={`${' flex  flex-wrap p-4'} ${'w-full sm:w-1/2'}`}>
                             <div className={`
                                 ${'w-full border-2 border-white rounded-xl p-4'} 
                                 ${'bg-black/[0.25] sm:bg-transparent'}
@@ -70,7 +70,7 @@ export default function Case() {
                                         Streami-fi Headphones
                                     </h3>
                                 </div>
-                                <div className={`${'text-white'}`}>
+                                <div className={`${'text-[#260742] font-semibold'}`}>
                                     <h4>
                                         For a limited time, a random headphones
                                         box will be available
@@ -83,7 +83,7 @@ export default function Case() {
                                 </div>
                             </div>
                         </div>
-                        <div className={`${'flex flex-wrap p-2'} ${'w-full sm:w-1/2'}`}>
+                        <div className={`${'flex flex-wrap p-4'} ${'w-full sm:w-1/2'}`}>
                             <div className={`
                                 ${'w-full border-2 border-white rounded-xl p-4'} 
                                 ${'bg-black/[0.25] sm:bg-transparent'}
@@ -96,7 +96,7 @@ export default function Case() {
                                         Limited Artist Edition
                                     </h3>
                                 </div>
-                                <div className={`${'text-white'}`}>
+                                <div className={`${'text-[#260742] font-semibold'}`}>
                                     <h4>
                                         Artist-themed
                                         or signatureheadphones
@@ -108,7 +108,7 @@ export default function Case() {
                                 </div>
                             </div>
                         </div>
-                        <div className={`${'flex flex-wrap  p-2'} ${'w-full sm:w-1/2'}`}>
+                        <div className={`${'flex flex-wrap  p-4'} ${'w-full sm:w-1/2'}`}>
                             <div className={`
                                 ${'w-full border-2 border-white rounded-xl p-4'} 
                                 ${'bg-black/[0.25] sm:bg-transparent'}
@@ -121,7 +121,7 @@ export default function Case() {
                                         Gift
                                     </h3>
                                 </div>
-                                <div className={`${'text-white'}`}>
+                                <div className={`${'text-[#260742] font-semibold'}`}>
                                     <h4>
                                         Users can purchase Gifts
                                         to sendto someone they like while they

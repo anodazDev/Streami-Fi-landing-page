@@ -43,30 +43,30 @@ export default function Navbar() {
                         />
                     </div>
                     <div className={`${'flex items-center'}`}>
-                        <div className={`${'flex items-center w-[120px] justify-center'}`}>
+                        <div className={` ${'flex items-center w-[120px] justify-center '} `}>
                             <Link href="/">
-                                <a className={`${'text-white !text-lg '}`}>
+                                <a className={` ${Styles.navLine} ${'text-white !text-lg font-medium relative '}`}>
                                     HOME
                                 </a>
                             </Link>
                         </div>
                         <div className={`${'flex items-center w-[120px] justify-center'}`}>
                             <Link href="/">
-                                <a className={`${'text-white !text-lg '}`}>
+                                <a className={`${'text-white !text-lg font-medium '}`}>
                                     EARN
                                 </a>
                             </Link>
                         </div>
                         <div className={`${'flex items-center w-[120px] justify-center'}`}>
                             <Link href="/">
-                                <a className={`${'text-white !text-lg '}`}>
+                                <a className={`${'text-white !text-lg font-medium '}`}>
                                     GAME
                                 </a>
                             </Link>
                         </div>
                         <div className={`${'flex items-center w-[120px] justify-center'}`}>
                             <Link href="/">
-                                <a className={`${'text-white !text-lg '}`}>
+                                <a className={`${'text-white !text-lg font-medium '}`}>
                                     CONTACT
                                 </a>
                             </Link>
@@ -74,8 +74,8 @@ export default function Navbar() {
                         <div className={`${'flex items-center justify-center'}`}>
                             <Link href="/">
                                 <button className={` 
-                                    ${'btn py-1 px-4 rounded-lg text-white border-white border-2 transition-all duration-300 ease-in-out '}  
-                                    ${'hover:text-primary-600  hover:bg-white hover:scale-110	'}
+                                    ${' btn py-1 px-4 rounded-lg text-white border-white border-2 transition-all duration-300 ease-in-out '}  
+                                    ${'hover:text-primary-600  hover:bg-white hover:scale-110 	'}
                                 `}>
                                     CONNECT WALLET
                                 </button>

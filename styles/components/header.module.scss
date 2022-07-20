@@ -4,7 +4,7 @@
     z-index: 2;
 }
 .bg_gradient{
-    background-image: linear-gradient(to bottom ,#FF3CA4 37.5%,#6D00A0 100%) ;
+    background-image: linear-gradient(to bottom ,#FF3CA4 0%,#6D00A0 100%) ;
     
     &::after{
         content: '';
