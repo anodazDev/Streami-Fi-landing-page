@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import TokenomicChartImage from '/public/media/img/Tokenomic/TokenomicChart.png'
+import TokenomicChartImage_M from '/public/media/img/Tokenomic/TokenomicChart_M.png'
 import TokenomicLogoComponent from '/public/media/img/Tokenomic/Logo_round.png'
 import TokenomicBlurLogoComponent from '/public/media/img/Tokenomic/Logo_round_blur.png'
 import RoadmapImage from '/public/media/img/Roadmap/Roadmap.svg'
+import RoadmapImage_M from '/public/media/img/Roadmap/Roadmap_M.png'
 import GradientImage from '/public/media/img/Tokenomic/Gradient.png'
 import Styles from '../styles/components/TokenomicRoadmap.module.scss'
 
@@ -22,9 +24,17 @@ export default function index() {
                             </div>
                             {/* Tokenomic Image */}
                             <div className={` ${Styles.layout_L}`}>
-                                <div className={`${Styles.image_x_auto} ${'container flex mx-auto mb-8'}`} data-aos="fade-in">
+                                <div className={`${Styles.image_x_auto} ${'container flex mx-auto mb-8'} ${'hidden lg:block'}`} data-aos="fade-in">
                                     <Image
                                         src={TokenomicChartImage}
+                                        alt="Picture of the author"
+                                        layout='intrinsic'
+                                        className="mx-auto"
+                                    />
+                                </div>
+                                <div className={`${Styles.image_x_auto} ${'container flex mx-auto mb-8'}  ${'block lg:hidden'}`} data-aos="fade-in">
+                                    <Image
+                                        src={TokenomicChartImage_M}
                                         alt="Picture of the author"
                                         layout='intrinsic'
                                         className="mx-auto"
@@ -33,7 +43,7 @@ export default function index() {
                             </div>
                             {/* Tokenomic decsription */}
                             <div className={`${'container mx-auto text-center'}`} data-aos="fade-in">
-                                <label className={`${'font-semibold text-white'} ${' text-xl lg:text-3xl'}`}>Total Amount 1,000,000</label>
+                                <label className={`${'font-semibold text-white'} ${' text-xl lg:text-3xl'}`}>Total Amount 1,000,000,000</label>
                             </div>
                             {/* top left */}
 
@@ -98,7 +108,7 @@ export default function index() {
                     {/* Roadmap */}
                     <div className={`${'relative mb-[20] z-10 pt-36'}`}>
                         {/* Roadmap Image */}
-                        <div className={`${Styles.image_x_auto} ${'w-full flex mx-auto'}`} data-aos="fade-in">
+                        <div className={`${Styles.image_x_auto} ${'w-full flex mx-auto'} ${' hidden lg:flex'}`} data-aos="fade-in">
                             {/* Roadmap title */}
                             <div className={`${'mx-auto text-right absolute '} ${' -top-8 sm:-top-0 left-8 md:left-[15%] xl:left-[20%]'}`} data-aos="zoom-out">
                                 <label className={`${'font-semibold text-white leading-none '} ${'text-2xl md:text-4xl xl:text-[56px]'}`}>ROAD</label>
@@ -111,6 +121,19 @@ export default function index() {
                                 style={{ width: "100%" }}
                                 className="mx-auto"
                             />
+                        </div>
+                        <div className={`${Styles.layout_L} ${'w-full flex flex-col mx-auto pb-12'} ${' flex  lg:hidden'}`} data-aos="fade-in">
+                            {/* Roadmap title */}
+                            <div className={`${'w-full text-center mb-8 '} `} data-aos="zoom-out">
+                                <label className={`${'font-semibold text-white leading-none '} ${'!text-4xl md:!text-6xl '}`}>ROAD MAP</label>
+                            </div>
+                            <div className={`${'w-full flex justify-center'}`}>
+                                <Image
+                                    src={RoadmapImage_M}
+                                    alt="Picture of the author"
+                                    layout='intrinsic'
+                                />
+                            </div>
                         </div>
                     </div>
                     {/* Gradient */}

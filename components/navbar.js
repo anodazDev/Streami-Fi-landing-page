@@ -116,7 +116,7 @@ export default function Navbar() {
             </nav>
             {/* nav Active */}
             <div className={`
-                ${'w-full h-screen absolute top-0  z-[999] p-6 flex flex-col transition-all duration-300 ease-in-out'}
+                ${'w-full h-screen fixed top-0  z-[999] p-6 flex flex-col transition-all duration-300 ease-in-out'}
                 ${'bg-gradient-to-br from-primary-500 to-secondary-500'}
                 ${navActive ? Styles.navActive : Styles.navInactive}
             `}>

@@ -22,6 +22,10 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* icon task */}
+        <link rel="icon" href="/icon.png" />
+        {/* title  */}
+        <title>Streami-Fi</title>
       </Head>
       <Component {...pageProps} />
     </>
