@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import PlatfromBoxImage from '/public/media/img/Platfrom/PlatfromBox.svg'
+import PlatfromBoxImage_M from '/public/media/img/Platfrom/PlatfromBox_M.png'
 import GameplayBoxImage from '/public/media/img/Gameplay/GameplayBox.svg'
 import GameplayArrowImage from '/public/media/img/Gameplay/GameplayArrow.svg'
 import GameplayGoodImage from '/public/media/img/Gameplay/GameplayGood.svg'
@@ -15,9 +16,17 @@ export default function index() {
           {/* Platfrom */}
           <div className={`${Styles.layout_L}  ${'!mb-32 flex flex-col'}`}>
             {/* Platfrom Main Image */}
-            <div className={` ${'  mx-auto relative'} ${'w-full xl:w-4/5'}`} data-aos="fade-in">
+            <div className={` ${'  mx-auto relative'} ${'w-full xl:w-4/5 hidden lg:block'}`} data-aos="fade-in">
               <Image
                 src={PlatfromBoxImage}
+                alt="Picture of the author"
+                layout='intrinsic'
+              />
+            </div>
+            {/* Platfrom Main Image M */}
+            <div className={` ${'  mx-auto relative'} ${'w-full xl:w-4/5 block lg:hidden'}`} data-aos="fade-in">
+              <Image
+                src={PlatfromBoxImage_M}
                 alt="Picture of the author"
                 layout='intrinsic'
               />
