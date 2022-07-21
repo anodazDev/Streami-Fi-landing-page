@@ -14,7 +14,7 @@ export default function index() {
       <div className={`${Styles.bottom_triangle_gradient} ${'flex bg-gradient-to-b from-primary-600 to-[#000000]'}`}>
         <div className={`${'mx-auto w-full relative'}`}>
           {/* Platfrom */}
-          <div className={`${Styles.layout_L}  ${'!mb-32 flex flex-col'}`}>
+          <div className={`${Styles.layout_L}  ${' !mb-28 md:!mb-56 flex flex-col'}`}>
             {/* Platfrom Main Image */}
             <div className={` ${'  mx-auto relative'} ${'w-full xl:w-4/5 hidden lg:block'}`} data-aos="fade-in">
               <Image
@@ -124,22 +124,22 @@ export default function index() {
           </div>
           {/* Gameplay Content*/}
           <div className={`${'relative '} ${' min-h-fit xl:min-h-[480px]'}`}>
-            <div className={`${Styles.layout_L} ${'!mb-24 lg:!mb-40'} `}>
+            <div className={`${Styles.layout_L} ${'!mt-0 !mb-24 lg:!mb-40'} `}>
               <div className={`
               ${' flex min-h-[200px] w-full relative '}
               ${'flex-col lg:flex-row'}
               `}>
                 {/* Gameplay Title*/}
                 <div className={`${'w-full flex justify-center items-center'} ${'lg:w-5/12 mb-8'}`} data-aos="fade-left">
-                  <h1 className={`${'m-auto text-white font-bold '} ${'!text-4xl lg:!text-6xl'}`}>Gameplay</h1>
+                  <h1 className={`${'m-auto text-transparent font-bold bg-clip-text bg-gradient-to-r from-primary-300 to-secondary-500 '} ${'!text-4xl lg:!text-6xl'}`}>Gameplay</h1>
                 </div>
                 {/* Gameplay Description*/}
                 <div className={` ${' flex items-center border-white border-4 rounded-3xl mx-auto'} ${'w-full md:w-10/12 lg:w-7/12'}`} data-aos="fade-right">
                   <div className={` ${'w-12 h-full border-r-4 border-white border-dashed'} ${'hidden lg:block'}`}></div>
                   <div className={`${' p-6 flex mx-auto '} ${'w-full lg:w-10/12'}`}>
                     <p className={`${' text-white !text-lg'}`}>
-                      <span className={`${'text-red-500 !text-lg'} `}>Streami-Fi </span>
-                      is a music listening platform that lets you earn
+                      <span className={`${'text-red-500 !text-lg !font-medium'} `}>Streami-Fi </span>
+                      is a music listening platform that lets you earn 
                       by listening to music from your favorite artists. or new artists
                       and new songs then  We are also d eveloping games for you to
                       have more fun. by bringing the songs in  Our platform ladies

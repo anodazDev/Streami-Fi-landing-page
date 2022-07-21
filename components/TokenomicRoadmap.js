@@ -106,7 +106,7 @@ export default function index() {
                         </div>
                     </div>
                     {/* Roadmap */}
-                    <div className={`${'relative mb-[20] z-10 pt-36'}`}>
+                    <div className={`${'relative mb-[20] z-10 pt-64'}`}>
                         {/* Roadmap Image */}
                         <div className={`${Styles.image_x_auto} ${'w-full flex mx-auto'} ${' hidden lg:flex'}`} data-aos="fade-in">
                             {/* Roadmap title */}

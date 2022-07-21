@@ -16,7 +16,7 @@ export default function Case() {
                     {/* Asset Use Case  */}
                     <div className={`${'  w-full flex  relative'} ${' justify-center lg:justify-end'}`}>
                         <div className={`${' w-fit px-12 py-2 justify-center items-center bg-[#111111] rounded-[9999px] absolute bottom-1/2 translate-y-1/2'}`}>
-                            <h1 className={`${'text-white !text-5xl '}`}>Asset Use Case</h1>
+                            <h1 className={`${'text-white  '} ${'!text-2xl xl:!text-5xl '}`}>Asset Use Case</h1>
                         </div>
                     </div>
                     {/* headphones */}
